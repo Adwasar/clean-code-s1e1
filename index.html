@@ -7,52 +7,52 @@
   </head>
   <body class="page">
 
-    <header>
-      <div class="head-wrapper">
-        <img class="eisenhower-matrix" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-        <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <header class="head-wrapper">
+      <div class="eisenhower-matrix">
+        <img class="eisenhower-matrix__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+        <a class="eisenhower-matrix__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
       </div>
     </header>
 
     <main class="main-wrapper">
 
-      <section>
-        <h3 class="new-task">Add Item</h3>
-        <div class="task-row-wrapper">
-          <input id="new-task-input" class="task" type="text">
-          <button class="add">Add</button>
+      <section class="add-item">
+        <h3 class="add-item__h">Add Item</h3>
+        <div class="add-item__task-row-wrapper">
+          <input id="add-item__new-task-input" class="task" type="text">
+          <button class="add-button">Add</button>
         </div>
       </section>
 
-      <section>
-        <h3 class="todo">Todo</h3>
-        <ul id="incomplete-tasks">
-          <li id="pay-bills-item">
-            <input id="pay-bills-checkbox" type="checkbox">
-            <label id="pay-bills-label" class="task">Pay Bills</label>
-            <input id="hidden-input" type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete"><img class="delete-img" src="./remove.svg" alt=""></button>
+      <section class="todo">
+        <h3 class="todo__h">Todo</h3>
+        <ul id="todo__incomplete-tasks">
+          <li id="todo__pay-bills-item">
+            <input id="todo__pay-bills-checkbox" type="checkbox">
+            <label id="todo__pay-bills-label" class="task">Pay Bills</label>
+            <input id="todo__hidden-input" type="text" class="task">
+            <button class="edit-button">Edit</button>
+            <button class="delete-button"><img class="delete-img" src="./remove.svg" alt=""></button>
           </li>
-          <li id="go-shopping-item">
-            <input id="go-shopping-checkbox" type="checkbox">
-            <label id="go-shopping-label" class="task">Go Shopping</label>
-            <input id="todo-input" type="text" value="Go Shopping" class="task">
-            <button class="save">Save</button>
-            <button class="delete"><img class="delete-img" src="./remove.svg" alt=""></button>
+          <li id="todo__go-shopping-item">
+            <input id="todo__go-shopping-checkbox" type="checkbox">
+            <label id="todo__go-shopping-label" class="task">Go Shopping</label>
+            <input id="todo__go-shopping-input" type="text" value="Go Shopping" class="task">
+            <button class="save-button">Save</button>
+            <button class="delete-button"><img class="delete-img" src="./remove.svg" alt=""></button>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h3 class="completed">Completed</h3>
-        <ul id="completed-tasks">
-          <li id="completed-tasks-item">
-            <input id="completed-tasks-checkbox" type="checkbox" checked>
-            <label id="completed-tasks-label" class="task">See the Doctor</label>
-            <input id="completed-input" type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete"><img class="delete-img" src="./remove.svg"></button>
+      <section class="completed">
+        <h3 class="completed__h3">Completed</h3>
+        <ul id="completed__tasks">
+          <li id="completed__tasks-item">
+            <input id="completed__tasks-checkbox" type="checkbox" checked>
+            <label id="completed__tasks-label" class="task">See the Doctor</label>
+            <input id="completed__input" type="text" class="task">
+            <button class="edit-button">Edit</button>
+            <button class="delete-button"><img class="delete-img" src="./remove.svg" alt=""></button>
           </li>
         </ul>
       </section>
