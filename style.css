@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.head-wrapper .more-inf {
+.head-wrapper
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -49,7 +50,7 @@ ul {
   padding: 0;
 }
 
-li, h3 {
+li {
   list-style: none;
 }
 
@@ -57,7 +58,10 @@ input {
   outline: none;
 }
 
-.add, .edit, .save, .delete {
+.add,
+.edit,
+.save,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -68,13 +72,16 @@ input {
   outline: none;
 }
 
-.add:hover, .edit:hover, .save:hover {
+.add:hover,
+.edit:hover,
+.save:hover {
   color: #3a3A3a;
 }
 
 /* Heading */
-.todo, .completed,
-.label-new-task {
+.todo,
+.completed,
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,7 +91,9 @@ input {
   text-transform: uppercase;
 }
 
-#new-task-input, #todo-input, #hidden-input {
+#new-task-input,
+#todo-input,
+#hidden-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,12 +106,14 @@ input {
   color: #888;
 }
 
-#new-task-input:focus, #todo-input:focus, #hidden-input:focus {
+#new-task-input:focus,
+#todo-input:focus,
+#hidden-input:focus {
   color: #333;
 }
 
 /* New Task */
-.label-new-task {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -112,7 +123,9 @@ input {
 }
 
 /* Task list */
-#pay-bills-item, #go-shopping-item, #completed-tasks-item {
+#pay-bills-item,
+#go-shopping-item,
+#completed-tasks-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,18 +134,24 @@ input {
   align-items: center;
 }
 
-#pay-bills-checkbox, #go-shopping-checkbox, #completed-tasks-checkbox {
+#pay-bills-checkbox,
+#go-shopping-checkbox,
+#completed-tasks-checkbox {
   margin: 0 10px;
 }
 
-#pay-bills-label, #go-shopping-label, #completed-tasks-label {
+#pay-bills-label,
+#go-shopping-label,
+#completed-tasks-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-#hidden-input, #todo-input, #completed-input {
+#hidden-input,
+#todo-input,
+#completed-input {
   width: 226px;
 }
 
@@ -153,7 +172,8 @@ input {
 }
 
 /* Edit Task */
-#completed-input, #hidden-input {
+#completed-input,
+#hidden-input {
   display: none;
 }
 
