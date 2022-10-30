@@ -16,6 +16,28 @@
   width: 100%;
 }
 
+h3 {
+  margin: 0;
+}
+
+.add-item__h,
+.todo__h,
+.completed__h3 {
+  padding: 30px 0 10px;
+  border-bottom: 2px solid #333;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.add-item__h {
+  margin: 0 0 20px;
+}
+
+.eisenhower-matrix__more-inf {
+  font-family: fantasy, cursive;
+}
+
 .head-wrapper
 .more-inf {
   font-family: fantasy, cursive;
@@ -60,7 +82,6 @@ input {
 
 .add-button,
 .edit-button,
-.save-button,
 .delete-button {
   background: none;
   border: 0px;
@@ -73,8 +94,7 @@ input {
 }
 
 .add-button:hover,
-.edit-button:hover,
-.save-button:hover {
+.edit-button:hover {
   color: #3a3A3a;
 }
 
@@ -83,32 +103,25 @@ input {
 .completed,
 .add-item {
   color: #333;
-  font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
   margin: 0;
-  text-transform: uppercase;
 }
 
-#add-item__new-task-input,
-#todo__go-shopping-input,
-#todo__hidden-input {
+.input-item-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  width: 226px;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
 }
 
-#add-item__new-task-input:focus,
-#todo__go-shopping-input:focus,
-#todo__hidden-input:focus {
+.input-item-text:focus {
   color: #333;
 }
 
@@ -118,14 +131,8 @@ input {
   margin: 0 0 20px;
 }
 
-#add-item__new-task-input {
-  width: 318px;
-}
-
 /* Task list */
-#todo__pay-bills-item,
-#todo__go-shopping-item,
-#completed__tasks-item {
+.todo-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -134,25 +141,15 @@ input {
   align-items: center;
 }
 
-#todo__pay-bills-checkbox,
-#todo__go-shopping-checkbox,
-#completed__tasks-checkbox {
+.checkbox {
   margin: 0 10px;
 }
 
-#todo__pay-bills-label,
-#todo__go-shopping-label,
-#completed__tasks-label {
+.todo-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-
-#todo__hidden-input,
-#todo__go-shopping-input,
-#completed-input {
-  width: 226px;
+  width: 69%;
 }
 
 .delete-img {
@@ -172,16 +169,16 @@ input {
 }
 
 /* Edit Task */
-#completed__input,
-#todo__hidden-input {
+
+.todo-item .input-item-text {
   display: none;
 }
 
-#todo__go-shopping-input {
-  display: inline-block;
-  width: 224px
+.edit-mode .input-item-text {
+  display:inline-block;
+  width:224px
 }
 
-#todo__go-shopping-label {
+.edit-mode .todo-label {
   display: none;
 }
