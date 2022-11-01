@@ -95,7 +95,7 @@ input {
 
 .add-button:hover,
 .edit-button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -175,8 +175,8 @@ input {
 }
 
 .edit-mode .input-item-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .todo-label {
