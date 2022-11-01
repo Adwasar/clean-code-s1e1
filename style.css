@@ -175,8 +175,8 @@ input {
 }
 
 .edit-mode .input-item-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .todo-label {
